@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            
+            <title>Crystal Collector</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+            
+            <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+            <script src="assets/javascript/game.js"></script>
+        </head>
+        
+        <body style="background-image: url(assets/media/crystalBckgrnd.jpg)">
+            <div class="jumbotron jumbotron-fluid transparent">
+                <div class="container">
+                    <h1 class="display-4 center">Crystal Collector</h1>
+                    <!-- <ul>
+                        <li>To start, pick a random crystal.</li>
+                        <li>Each Crystal has a random number asigned to it.</li>
+                        <li>Your goal is to reach the exact sum of the random number goal.</li>
+                        <li>Victory is within your grasp!</li>
+                    </ul> -->
+                    <p class="lead center">To start, pick a random crystal. <br>
+                    Each Crystal has a random number asigned to it. <br>
+                    Your goal is to reach the exact sum of the random number goal. <br>
+                    Victory is within your grasp!</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 class="center">Goal:</h3>
+                            <h5 id="goalNumber" class="center"></h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="center">Your Sum:</h3>
+                            <h5 id="userSum" class="center"></h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="center">Wins:</h3>
+                            <h5 id="wins" class="center"></h5>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="center">Losses:</h3>
+                            <h5 id="losses" class="center"></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img id="power" class="card-img-top img transparent" style="height: 215px;" src="assets/media/powerCrystal.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text center">Power Crystal!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img id="life" class="card-img-top img transparent" src="assets/media/crystal3.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text center">Life Crystal!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img id="quartz" class="card-img-top img transparent" style="height: 215px;" src="assets/media/quartsCrystal.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text center">Quartz Crystal!?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;">
+                            <img id="dark" class="card-img-top img transparent" style="height: 215px;" src="assets/media/crystal2.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text center">Dark Crystal!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </body>
+    </html>

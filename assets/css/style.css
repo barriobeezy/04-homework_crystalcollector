@@ -1,0 +1,14 @@
+.center {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.jumbotron {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.transparent {
+    background: transparent;
+}
